@@ -11,13 +11,14 @@ def subtract(x, y):
 
 # This function multiplies two numbers
 def multiply(x, y):
-    print x*y
     return x * y
 
 #Need to define divide function.
 def divide (x,y):
-    print x/y
-    return x/y
+    if(y==0) :
+        print("division by zero is not available")
+    else :
+        return x/y
 
 print("Calculator started.")
 
